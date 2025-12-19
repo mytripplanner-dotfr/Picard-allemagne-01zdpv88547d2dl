@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - Picard allemagne</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: 49.88361545, lng: 8.000207824999999 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":49.9928617,"lng":8.2472526,"name":"Mayence","jour":1,"titre":"Arrivée en terre rhénane","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=49.9928617,8.2472526&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=49.9928617,8.2472526","aiImageUrl":"jour1.jpg"},{"lat":50.1481961,"lng":7.7060771,"name":"St. Goar","jour":3,"titre":"Croisière romantique sur le Rhin","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=50.1481961,7.7060771&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=50.1481961,7.7060771","aiImageUrl":"jour3.jpg"},{"lat":50.1481961,"lng":7.7060771,"name":"St. Goar / Boppard","jour":4,"titre":"Châteaux et délices viticoles","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=50.1481961,7.7060771&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=50.1481961,7.7060771","aiImageUrl":"jour4.jpg"},{"lat":50.1474123,"lng":7.1701755,"name":"Cochem (depuis St. Goar/Boppard)","jour":5,"titre":"Escapade dans la vallée de la Moselle","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=50.1474123,7.1701755&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=50.1474123,7.1701755","aiImageUrl":"jour5.jpg"},{"lat":50.3569429,"lng":7.5889959,"name":"Coblence","jour":6,"titre":"Koblenz, entre Rhin et Moselle","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=50.3569429,7.5889959&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=50.3569429,7.5889959","aiImageUrl":"jour6.jpg"},{"lat":49.3987524,"lng":8.6724335,"name":"Heidelberg","jour":7,"titre":"Heidelberg, ville romantique","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=49.3987524,8.6724335&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=49.3987524,8.6724335","aiImageUrl":"jour7.jpg"},{"lat":48.76564,"lng":8.228524199999999,"name":"Baden-Baden (depuis Heidelberg)","jour":9,"titre":"Détente et élégance à Baden-Baden","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=48.76564,8.228524199999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=48.76564,8.228524199999999","aiImageUrl":"jour9.jpg"},{"lat":50.1109221,"lng":8.6821267,"name":"Francfort","jour":10,"titre":"Retour à Francfort et adieux","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=50.1109221,8.6821267&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=50.1109221,8.6821267","aiImageUrl":"jour10.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI&callback=initMap">
+  </script>
+</body>
+</html>
