@@ -1,0 +1,367 @@
+{
+  "pays": "Allemagne",
+  "drapeau": "🇩🇪",
+  "symbole": "🏰",
+  "titre": "Charme Rhénan et Contes de Châteaux",
+  "budget_total": "3550€",
+  "duree": "11 jours",
+  "temps_vol": "15-20h avec escale depuis Breton, Haiti",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée en terre rhénane",
+      "legende": "Après un long voyage, atterrissez à Francfort, porte d'entrée de la région du Rhin. Un court transfert vous mènera à Mayence, une ville historique où vous pourrez vous installer tranquillement et profiter d'une première balade relaxante le long du Rhin pour vous imprégner de l'atmosphère.",
+      "lieu": "Mayence",
+      "activites": [
+        "🛬 <strong>Arrivée à l'aéroport de Francfort</strong> : Récupérez vos bagages et prenez le train direct pour Mayence (environ 25 minutes).",
+        "🛏️ <strong>Installation à l'hôtel à Mayence</strong> : Posez vos affaires et prenez un moment pour vous rafraîchir après le vol.",
+        "🚶‍♂️ <strong>Balade digestive le long du Rhin</strong> : Profitez d'une promenade légère sur les rives du Rhin pour admirer les bateaux et les ponts, une introduction paisible à votre séjour."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Conseil transport",
+          "texte": "Le train S8 relie directement l'aéroport de Francfort à la gare centrale de Mayence en moins d'une demi-heure. Achetez votre billet aux distributeurs automatiques."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Premiers pas",
+          "texte": "Mayence est une ville agréable à découvrir à pied. N'hésitez pas à vous perdre dans ses petites rues pour trouver un restaurant typique."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🏛️",
+      "titre": "Mayence, cité de Gutenberg",
+      "legende": "Plongez au cœur de l'histoire de l'imprimerie et de l'architecture médiévale. Mayence, avec sa cathédrale impériale et son musée Gutenberg, offre un aperçu fascinant du passé. Laissez-vous charmer par ses places animées et ses ruelles pittoresques.",
+      "lieu": "Mayence",
+      "activites": [
+        "⛪ <strong>Visite de la Cathédrale de Mayence</strong> : Explorez cette imposante cathédrale romane, l'une des plus anciennes d'Allemagne, et admirez son architecture millénaire.",
+        "📚 <strong>Découverte du Musée Gutenberg</strong> : Plongez dans l'histoire de l'imprimerie et découvrez les premières bibles de Gutenberg, une invention qui a révolutionné le monde.",
+        "🍷 <strong>Flânerie dans la vieille ville et dégustation</strong> : Promenez-vous dans les charmantes ruelles de la vieille ville et terminez la journée par une dégustation de vin local dans un \"Weinstube\" traditionnel."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "⏰",
+          "titre": "Horaires",
+          "texte": "Vérifiez les horaires d'ouverture de la Cathédrale et du Musée Gutenberg, surtout le dimanche et les jours fériés."
+        },
+        {
+          "symbole": "🍇",
+          "titre": "Vin de la région",
+          "texte": "Mayence est la capitale du Rheinhessen, la plus grande région viticole d'Allemagne. Goûtez un Riesling local."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🚢",
+      "titre": "Croisière romantique sur le Rhin",
+      "legende": "Embarquez pour une croisière inoubliable sur le Rhin, classé au patrimoine mondial de l'UNESCO. Laissez-vous émerveiller par les paysages de vignobles en terrasses, les châteaux perchés et la légendaire roche de la Loreley. Votre destination sera St. Goar, un village pittoresque.",
+      "lieu": "St. Goar",
+      "activites": [
+        "🚢 <strong>Croisière panoramique sur le Rhin</strong> : Prenez un bateau de Mayence à St. Goar, passant devant des dizaines de châteaux et la célèbre Loreley. C'est une expérience visuelle unique.",
+        "⛰️ <strong>Contemplation de la Loreley</strong> : Admirez le rocher mythique de la Loreley depuis le pont du bateau, tout en écoutant les légendes qui l'entourent.",
+        "🚶‍♀️ <strong>Installation et découverte de St. Goar</strong> : Arrivée à St. Goar, installez-vous à votre hôtel et faites une première exploration de ce charmant village au bord du fleuve."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "Billets de bateau",
+          "texte": "Les compagnies KD ou Bingen-Rüdesheimer proposent des croisières. Il est conseillé de réserver à l'avance en haute saison."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Points de vue",
+          "texte": "Gardez votre appareil photo prêt, les paysages sont spectaculaires, surtout autour de la Loreley."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🏰",
+      "titre": "Châteaux et délices viticoles",
+      "legende": "Explorez les châteaux emblématiques de la vallée du Rhin, témoins d'un passé chevaleresque. La journée sera rythmée par la découverte de forteresses imposantes et une immersion dans la culture viticole locale, avec une dégustation des vins de la région.",
+      "lieu": "St. Goar / Boppard",
+      "activites": [
+        "⚔️ <strong>Visite du Château de Rheinfels</strong> : Explorez les ruines imposantes de ce château fort au-dessus de St. Goar, offrant des vues imprenables sur le Rhin.",
+        "🚠 <strong>Montée au Sesselbahn de Boppard</strong> : Prenez le télésiège de Boppard pour admirer la boucle du Rhin et les paysages environnants depuis les hauteurs.",
+        "🍇 <strong>Dégustation de vin chez un vigneron local</strong> : Terminez la journée par une dégustation de vins du Mittelrhein, réputés pour leurs Rieslings fruités."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "Accès aux châteaux",
+          "texte": "Certains châteaux nécessitent une bonne marche pour y accéder. Prévoyez des chaussures confortables."
+        },
+        {
+          "symbole": "🚌",
+          "titre": "Transport local",
+          "texte": "Des bus locaux relient St. Goar et Boppard, facilitant les déplacements entre les villages."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🏞️",
+      "titre": "Escapade dans la vallée de la Moselle",
+      "legende": "Quittez temporairement le Rhin pour une incursion dans la magnifique vallée de la Moselle. Cochem, avec son château impérial perché et ses maisons à colombages, est une perle à découvrir. Profitez de l'ambiance paisible de cette région viticole.",
+      "lieu": "Cochem (depuis St. Goar/Boppard)",
+      "activites": [
+        "🚂 <strong>Trajet en train vers Cochem</strong> : Prenez le train de St. Goar/Boppard à Cochem, un voyage pittoresque le long des rivières.",
+        "👑 <strong>Visite du Reichsburg Cochem</strong> : Explorez ce château impérial magnifiquement restauré, offrant des vues spectaculaires sur la Moselle et la ville.",
+        "🚶‍♀️ <strong>Flânerie dans la vieille ville de Cochem</strong> : Promenez-vous dans les ruelles étroites de Cochem, admirez les maisons à colombages et dégustez un verre de vin de Moselle."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🗺️",
+          "titre": "Planification",
+          "texte": "Cochem est une excursion d'une journée facile depuis la vallée du Rhin. Les trains sont fréquents."
+        },
+        {
+          "symbole": "🍷",
+          "titre": "Vins de Moselle",
+          "texte": "Les vins de Moselle sont réputés pour leur légèreté et leur acidité rafraîchissante. À ne pas manquer!"
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": " confluence",
+      "titre": "Koblenz, entre Rhin et Moselle",
+      "legende": "Découvrez Coblence, une ville stratégiquement située au confluent du Rhin et de la Moselle. Le \"Deutsches Eck\" est un site emblématique, et la forteresse d'Ehrenbreitstein offre des panoramas grandioses. Une journée riche en histoire et en vues spectaculaires.",
+      "lieu": "Coblence",
+      "activites": [
+        " confluence <strong>Visite du Deutsches Eck</strong> : Admirez le point de rencontre spectaculaire du Rhin et de la Moselle, dominé par la statue équestre de l'Empereur Guillaume Ier.",
+        "🚠 <strong>Téléphérique et Forteresse d'Ehrenbreitstein</strong> : Prenez le téléphérique pour monter à la forteresse, l'une des plus grandes d'Europe, et profitez des vues panoramiques.",
+        "🚶‍♂️ <strong>Exploration de la vieille ville de Coblence</strong> : Flânez dans les rues historiques de Coblence, découvrez ses places et ses églises."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "Billet combiné",
+          "texte": "Un billet combiné pour le téléphérique et la forteresse est souvent disponible et plus avantageux."
+        },
+        {
+          "symbole": "🍽️",
+          "titre": "Pause gourmande",
+          "texte": "De nombreux cafés et restaurants bordent les rives du Rhin et de la Moselle, parfaits pour une pause."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🎓",
+      "titre": "Heidelberg, ville romantique",
+      "legende": "Quittez la vallée du Rhin pour rejoindre Heidelberg, une ville universitaire réputée pour son charme romantique. Installez-vous et commencez par explorer la vieille ville, avec ses ruelles pavées et ses bâtiments historiques. Une transition douce vers une nouvelle ambiance.",
+      "lieu": "Heidelberg",
+      "activites": [
+        "🚆 <strong>Trajet en train vers Heidelberg</strong> : Prenez le train de Coblence à Heidelberg (environ 2h-2h30), un voyage confortable à travers la campagne allemande.",
+        "🛏️ <strong>Installation à l'hôtel à Heidelberg</strong> : Déposez vos bagages et prenez un moment pour vous détendre après le trajet.",
+        "🚶‍♀️ <strong>Découverte de la vieille ville d'Heidelberg</strong> : Promenez-vous dans la Hauptstrasse, la plus longue rue piétonne d'Europe, et admirez l'architecture baroque."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Connexion",
+          "texte": "Heidelberg est bien desservie par le réseau ferroviaire allemand. Les trains ICE sont les plus rapides."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Ambiance",
+          "texte": "Heidelberg est très animée grâce à sa population étudiante. Profitez des nombreux bars et cafés."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "👑",
+      "titre": "Le Château et le Chemin des Philosophes",
+      "legende": "Heidelberg vous invite à explorer son emblématique château, symbole de la ville, et à vous promener sur le célèbre Chemin des Philosophes. Ces lieux offrent des vues imprenables et une atmosphère propice à la contemplation. Une journée entre histoire et nature.",
+      "lieu": "Heidelberg",
+      "activites": [
+        "🏰 <strong>Visite du Château de Heidelberg</strong> : Explorez les ruines majestueuses de ce château, symbole du romantisme allemand, et son gigantesque tonneau de vin.",
+        "🚶‍♂️ <strong>Ascension du Philosophenweg</strong> : Traversez le Vieux Pont et montez sur le Chemin des Philosophes pour des vues panoramiques exceptionnelles sur le château, la vieille ville et le Neckar.",
+        "🏛️ <strong>Exploration de l'Université de Heidelberg</strong> : Découvrez la plus ancienne université d'Allemagne, son histoire et son \"Studentenkarzer\" (prison des étudiants)."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "👟",
+          "titre": "Chaussures",
+          "texte": "Le Chemin des Philosophes est une montée, prévoyez des chaussures confortables."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Meilleure vue",
+          "texte": "Le coucher de soleil depuis le Philosophenweg est particulièrement photogénique."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🧖‍♀️",
+      "titre": "Détente et élégance à Baden-Baden",
+      "legende": "Offrez-vous une journée de luxe et de détente à Baden-Baden, une ville thermale élégante aux portes de la Forêt-Noire. Profitez de ses célèbres thermes et de son ambiance raffinée. Une pause bien-être avant de reprendre la route.",
+      "lieu": "Baden-Baden (depuis Heidelberg)",
+      "activites": [
+        "🚆 <strong>Excursion à Baden-Baden</strong> : Prenez le train de Heidelberg à Baden-Baden (environ 1h), une ville réputée pour ses thermes et son casino.",
+        "♨️ <strong>Détente aux Thermes de Caracalla</strong> : Plongez dans les eaux chaudes de ces thermes modernes, un havre de paix pour le corps et l'esprit.",
+        "🎲 <strong>Visite du Casino de Baden-Baden</strong> : Admirez l'architecture somptueuse de l'un des plus beaux casinos du monde, même sans jouer."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "🧖‍♀️",
+          "titre": "Thermes",
+          "texte": "Les thermes de Caracalla sont mixtes et avec maillot de bain. Les Friedrichsbad sont plus traditionnels (nudité)."
+        },
+        {
+          "symbole": "👗",
+          "titre": "Code vestimentaire",
+          "texte": "Pour le casino, une tenue élégante est souvent appréciée, surtout le soir."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🏙️",
+      "titre": "Retour à Francfort et adieux",
+      "legende": "Après avoir exploré les charmes du Rhin et de Heidelberg, retournez à Francfort pour votre dernière nuit. Profitez-en pour découvrir le centre-ville moderne et historique, faire quelques achats de dernière minute ou simplement vous détendre avant votre départ.",
+      "lieu": "Francfort",
+      "activites": [
+        "🚆 <strong>Trajet en train vers Francfort</strong> : Retournez à Francfort en train depuis Heidelberg (environ 1h), pour vous rapprocher de l'aéroport.",
+        "🚶‍♂️ <strong>Découverte du Römerberg et du centre historique</strong> : Explorez la place médiévale du Römerberg, ses maisons à colombages reconstruites et la Cathédrale impériale.",
+        "🛍️ <strong>Shopping sur la Zeil ou détente</strong> : Profitez de la rue commerçante Zeil pour des achats de dernière minute ou savourez un dernier repas allemand."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Transport aéroport",
+          "texte": "Depuis la gare centrale de Francfort, l'aéroport est facilement accessible par S-Bahn (S8, S9)."
+        },
+        {
+          "symbole": "🥨",
+          "titre": "Spécialité locale",
+          "texte": "Goûtez l'Apfelwein (cidre de pomme) dans un \"Ebbelwoi-Kneipe\" traditionnel à Francfort."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "🛫",
+      "titre": "Départ d'Allemagne",
+      "legende": "C'est le moment de dire au revoir à l'Allemagne. Après un petit-déjeuner, vous vous dirigerez vers l'aéroport de Francfort pour prendre votre vol de retour, la tête pleine de souvenirs de châteaux, de paysages fluviaux et de villes historiques.",
+      "lieu": "Francfort",
+      "activites": [
+        "🍳 <strong>Petit-déjeuner à l'hôtel</strong> : Profitez d'un dernier petit-déjeuner allemand.",
+        "✈️ <strong>Transfert vers l'aéroport de Francfort</strong> : Prenez le S-Bahn ou un taxi pour l'aéroport, en prévoyant suffisamment de temps.",
+        "🛫 <strong>Vol retour vers Breton, Haiti</strong> : Embarquement pour votre vol, avec des souvenirs mémorables de votre voyage."
+      ],
+      "illustration": "jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "⏰",
+          "titre": "Heure de départ",
+          "texte": "Arrivez à l'aéroport au moins 3 heures avant votre vol international."
+        },
+        {
+          "symbole": "🛂",
+          "titre": "Formalités",
+          "texte": "Assurez-vous d'avoir tous vos documents de voyage (passeport, billets) à portée de main."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "1500€/pers (Vol aller-retour en classe économique depuis Breton, Haiti vers Francfort avec escale)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "250€/pers (Trains interurbains, S-Bahn, bus locaux, croisière sur le Rhin)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "550€/pers (Repas moyens, incluant quelques spécialités locales et boissons)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "1000€/pers (10 nuits en hôtels 3 étoiles, base chambre double)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "250€/pers (Entrées châteaux, musées, thermes, dégustations de vin)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de mai et juin (printemps) ou septembre et octobre (automne).",
+      "symbole": "🌸"
+    },
+    {
+      "titre": "Ces mois offrent un climat agréable, des paysages verdoyants ou colorés, et moins de foule qu'en plein été.",
+      "symbole": "☀️"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "La population allemande est d'environ 83 millions d'habitants. Les Allemands sont réputés pour leur ponctualité et leur sens de l'organisation.",
+      "symbole": "👥"
+    },
+    {
+      "titre": "L'Allemagne est un pays d'Europe centrale, membre de l'Union Européenne. Sa capitale est Berlin. La langue officielle est l'allemand.",
+      "symbole": "🇩🇪"
+    },
+    {
+      "titre": "Info insolite : L'Allemagne compte plus de 25 000 châteaux et ruines de châteaux. Le système de consigne (Pfand) pour les bouteilles et canettes est très répandu et efficace.",
+      "symbole": "💡"
+    },
+    {
+      "titre": "Le pourboire n'est pas obligatoire mais apprécié (environ 5-10% dans les restaurants si le service est bon).",
+      "symbole": "💶"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Informations touristiques officielles sur l'Allemagne",
+      "titre": "Office National Allemand du Tourisme",
+      "url": "https://www.germany.travel/fr/home.html",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Horaires et réservations de trains en Allemagne",
+      "titre": "Deutsche Bahn (DB)",
+      "url": "https://www.bahn.com/fr",
+      "symbole": "🚆"
+    },
+    {
+      "legende": "Compagnie de croisières sur le Rhin",
+      "titre": "KD (Köln-Düsseldorfer)",
+      "url": "https://www.k-d.com/fr/",
+      "symbole": "🚢"
+    },
+    {
+      "legende": "Prévisions météo détaillées pour l'Allemagne",
+      "titre": "Météo Allemagne (DWD)",
+      "url": "https://www.dwd.de/DE/Home/home_node.html",
+      "symbole": "🌤️"
+    }
+  ]
+}
